@@ -20,11 +20,11 @@ var search = function(){
         }
     }
 };
-/*秒杀倒计时*/
+/* 秒杀倒计时 */
 var secondKill = function() {
-    /*复盒子*/
+    /* 复盒子 */
     var parentTime = document.getElementsByClassName('sk_time')[0];
-    /*span时间*/
+    /* span时间 */
     var timeList = parentTime.getElementsByClassName('num');
 
     console.log(timeList.length);
